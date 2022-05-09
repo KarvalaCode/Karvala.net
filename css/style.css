@@ -1,0 +1,49 @@
+
+.bombo{
+    position: relative;
+    background: coral;
+    border: 5px outsert lightseagreen;
+    height: 300px;
+    width: 700px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+  }
+
+  .bombo img {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  #logobombo:hover{
+    border:solid coral;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+
+  .hastaaqui{
+    position: relative;
+    background: lightseagreen;
+    border: 5px outsert coral;
+    height: 550px;
+    width: 700px;
+    border-radius: 25px;
+    justify-content: center;
+  }
+
+  .hastaaqui img {
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  #logohastaaqui:hover{
+    border:solid lightseagreen;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
